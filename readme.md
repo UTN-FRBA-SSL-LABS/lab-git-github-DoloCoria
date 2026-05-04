@@ -458,7 +458,6 @@ git switch main
 git pull
 ```
 
-<<<<<<< HEAD
 ---
 
 **P2.** Cuando el owner pide cambios (Request changes) en un PR, ¿qué debe hacer el colaborador?
@@ -472,26 +471,16 @@ c) Hacer un rebase interactivo para reescribir el historial antes de responder a
 d) Pedirle al owner que mergee igual y hacer el fix en un PR separado
 
 ```
-RESPUESTA_P2=
+RESPUESTA_P2=b
 ```
-=======
-```
-PARTE_II_COMPLETA=
-```
-_(escribí SI cuando el PR del compañero esté aprobado y mergeado)_
->>>>>>> origin/feature/conflicto-demo
 
 ---
 
 ## Parte III — Revertir un error
 
-<<<<<<< HEAD
 En el día a día es común commitear algo que no debería estar: código de prueba, un debug print, o directamente un bug. Git permite deshacerlo de forma segura.
 
 La clave está en entender que cuando trabajás en un repositorio compartido, **el historial es compartido**. Si vos pusheaste un commit y otros miembros del equipo ya descargaron esos cambios, modificar el historial de forma destructiva (borrando o reescribiendo commits) causa problemas para todos ellos: sus repos quedan en un estado inconsistente con el remoto. Por eso existe `git revert`.
-=======
-En el día a día es común commitear algo que no debería estar. Git permite deshacerlo sin borrar la historia.
->>>>>>> origin/feature/conflicto-demo
 
 Antes de arrancar, asegurate de estar en `main`:
 
